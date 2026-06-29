@@ -5,3 +5,5 @@
 - A sample structure is provided in `/sample_data` 
 - Training codes are in `/training`
 - Code to generate synthetic noise mimicking  Bangla Typing behaviour in `/noise_generator` (based on Sifat etal, 2020)
+
+![overview_page-0001](./assets/overview.jpg)
