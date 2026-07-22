@@ -16,10 +16,10 @@ All splits are pre-generated in `Dataset/splits/`:
 
 | Dataset | Train | Val | Test |
 |---|---|---|---|
-| Clean | `splits/clean/train.jsonl` (3706) | `splits/clean/val.jsonl` (798) | `splits/clean/test.jsonl` (816) |
-| ASR | `splits/asr/train.jsonl` (3242) | `splits/asr/val.jsonl` (463) | `splits/asr/test.jsonl` (954) |
-| Combined | `splits/combined/train.jsonl` (6948) | `splits/combined/val.jsonl` (1261) | -- |
-| Noise | -- | -- | `splits/noise/test_wcr{10,20,30,40}.jsonl` (816 each) |
+| Clean | `splits/clean/train.jsonl` | `splits/clean/val.jsonl` | `splits/clean/test.jsonl` |
+| ASR | `splits/asr/train.jsonl` | `splits/asr/val.jsonl` | `splits/asr/test.jsonl` |
+| Combined | `splits/combined/train.jsonl` | `splits/combined/val.jsonl` | -- |
+| Noise | -- | -- | `splits/noise/test_wcr{10,20,30,40}.jsonl` |
 
 SFT files for decoder training: `splits/sft/train_{guided,basic,combined}.jsonl`.
 
